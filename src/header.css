@@ -1,0 +1,36 @@
+a {
+  text-decoration: none;
+}
+#headerandsvgcont {
+  z-index: 1;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ff0000;
+}
+header > div {
+  border: solid #ff0000;
+}
+
+#links {
+  display: flex;
+  width: 400px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#links li {
+  margin-left: 30px;
+  list-style: none;
+}
+
+#name h1 {
+  color: wheat;
+}
+
+a p {
+  color: white;
+}
